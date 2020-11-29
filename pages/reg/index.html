@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Gamefy Sience - РЕГЕСТРАЦИЯ</title>
+        <link rel="icon" type="image/png" href="../../images/icons/favicon.ico"/>
+
+        <link rel="stylesheet" type="text/css" href="../../style/main.css">
+        <link rel="stylesheet" type="text/css" href="../../style/login.css">
+        <link rel="stylesheet" type="text/css" href="../../style/util.css">
+        <link rel="stylesheet" type="text/css" href="../../style/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+        <!--==========================================VENDOR STYLE=========================================-->	
+		<link rel="stylesheet" type="text/css" href="../../style/vendor/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="../../style/vendor/animate/animate.css">
+		<link rel="stylesheet" type="text/css" href="../../style/vendor/css-hamburgers/hamburgers.min.css">
+		<link rel="stylesheet" type="text/css" href="../../style/vendor/select2/select2.min.css">
+		<!--==========================================VENDOR JS============================================-->	
+		<script src="../../style/vendor/jquery/jquery-3.2.1.min.js"></script>
+		<script src="../../style/vendor/bootstrap/js/popper.js"></script>
+		<script src="../../style/vendor/bootstrap/js/bootstrap.min.js"></script>
+		<script src="../../style/vendor/select2/select2.min.js"></script>
+		<script src="../../style/vendor/tilt/tilt.jquery.min.js"></script>
+		<!--=========================================VENDOR END============================================-->
+		<script src="../../js/main.js"></script>
+		<script src="../../js/js.js"></script>
+		<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+		
+	</head>
+    <body class="bg">
+    	<div>
+    	<nav>
+  			<ul class="menu-main">
+  					<li class="main-img"><img class="main-icon" src="../../images/icons/favicon.png"/></li>
+    				<li><a href="../../index.html"><img class="icon-size" src="../../images/icons/menu_main.png"/>Главная</a></li>
+  					<li><a href="../top-team/index.html"><img class="icon-size" src="../../images/icons/menu_top_team.png"/>Топ Команд</a></li>
+  					<li><a href="../top-author/index.html"><img class="icon-size" src="../../images/icons/menu_top_author.png"/>Топ Авторов</a></li>
+  					<li><a href="../about/index.html"><img class="icon-size" src="../../images/icons/menu_about.png"/>О нас</a></li>
+  					<li class="menu-auth">
+  						<a href="" class="current">Войти<img class="icon-size" src="../../images/icons/menu_login.png" /></a></li>
+			</ul>
+		</nav>
+	</div>
+
+<div class="limiter">
+<div class="container-login100">
+	<div class="wrap-login100">
+		<div class="login100-pic js-tilt" data-tilt="" style="will-change: transform; transform: perspective(300px) rotateX(0deg) rotateY(0deg);">
+			<img src="../../images/img-01.png" alt="IMG">
+		</div>
+	<!-- <form class="login100-form validate-form"> -->
+			<div class="login100-form validate-form">
+					<span class="login100-form-title">Регистрация</span>
+
+					
+					<div class="wrap-input100 validate-input" data-validate="Valid surname">
+						<input class="input100" type="text" name="surname" id="surname"  placeholder="Фамилия">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-user-circle " aria-hidden="true"></i>
+						</span>
+					</div>	
+					<div class="wrap-input100 validate-input" data-validate="Valid name">
+						<input class="input100" type="text" name="name" id="name" placeholder="Имя">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-user-o" aria-hidden="true"></i>
+						</span>
+					</div>	
+					<div class="wrap-input100 validate-input" data-validate="Valid patronymic">
+						<input class="input100" type="text" name="patronymic" id="m_name" placeholder="Отчество">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-user-circle-o" aria-hidden="true"></i>
+						</span>
+					</div>
+
+					
+					 <div class="position-container">
+					    <select name="position" class="position-select" id="position">
+					      	<option value="Должность">Должность</option>
+					      	<option value="Обучающийся">Обучающийся</option>
+					      	<option value="Ассистент">Ассистент</option>
+					      	<option value="Доцент, д.н.">Доцент, д.н.</option>
+					      	<option value="Доцент, к.н.">Доцент, к.н.</option>
+					      	<option value="Профессор, д.н.">Профессор, д.н.</option>
+					      	<option value="Ст. преподаватель">Ст. преподаватель</option>
+					      	<option value="Ст. преподаватель, к.н.">Ст. преподаватель, к.н.</option>
+					    </select>
+					 </div>
+
+
+					
+
+					<div>
+						<div class="address_form">
+							<span>Адрес</span>
+						</div>
+						<hr></hr>
+						<div class="wrap-input100 validate-input" data-validate="Valid address">
+							<input list="address_list" class="input100"  type="text" name="address" id="address" placeholder="Московская Область, Москва">
+							  	<datalist id="address_list">
+    								<option value="Москва">
+  								</datalist>
+
+
+							<span class="focus-input100"></span>
+							<span class="symbol-input100">
+							<i class="fa fa-address-card" aria-hidden="true"></i>
+							</span>
+						</div>	
+						<hr></hr>
+					</div>
+					
+					
+					
+					<div class="wrap-input100 validate-input" data-validate="Valid email is required: email@gamefy-scence.xyz">
+						<input class="input100" type="text" name="email" id="email" placeholder="Почта">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate="Password is required">
+						<input class="input100" type="password" name="pass" id="pass1" placeholder="Пароль">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-lock" aria-hidden="true"></i>
+						</span>
+					</div>
+					
+					<div class="wrap-input100 validate-input" data-validate="Password is required">
+						<input class="input100" type="password" name="pass" id="pass2" placeholder="Подтвердить пароль">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-check" aria-hidden="true"></i>
+						</span>
+					</div>
+
+					<div>
+						<div class="debug_form">
+							<span class="debug_info" id="debug_info">DATA DEBUG</span>
+						</div>
+					</div>
+					
+
+
+					<div class="container-login100-form-btn">
+						<button class="login100-form-btn" id = "send">Зарегистрироваться</button>
+					</div>
+					</div>
+			</div>
+	<!-- </form>		 -->
+</div>
+</div>
+		
+		
+		<script src="javascript.js"></script>
+    </body>
+</html>

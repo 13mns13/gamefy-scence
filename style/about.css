@@ -1,0 +1,77 @@
+.about-content {
+  padding: 18px;
+  margin: 18px;
+  /*background: #1976d2;*/
+  border-radius: 24px;
+  color: #fff;
+}
+
+.about-img{
+	width: 24%;
+	height: 24%;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+.about-title{
+  font-size: 28px;
+  text-align: center;
+  font-family: TT Commons;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 1em;
+  color: #C4C4C4;
+}
+.about-text{
+
+}
+.about-photo{
+	height: 12%;
+}
+.about-prof{
+	font-size: 12px;
+}
+.about-team{
+	margin-left: auto;
+    margin-right: auto;
+}
+/*.about-team td{
+	margin-left: 4px;
+	margin-right: 4px;
+}*/
+
+.about-team table {
+  width: 50%;
+  border-collapse: collapse;
+
+  border: 6px solid transparent;
+  /*width:100%;*/
+  moz-border-radius: 10px; /* Firefox */
+  -webkit-border-radius: 10px; /* Safari, Google Chrome */
+  -khtml-border-radius: 10px; /* KHTML */
+  -o-border-radius: 10px; /* Opera */
+  -ms-border-radius: 10px; /* IE8 */
+  border-radius: 10px; /* CSS3 */
+  overflow:hidden;
+  margin:0.7em auto;
+}
+
+.about-team th {
+  text-align: center;
+  padding: 5px;
+  background-color: #512da8;
+  color: #fff;
+}
+.about-teama td{
+  background: #9575cd;
+}
+.about-team td, th {
+  font-family: TT Commons;
+  font-style: normal;
+  font-weight: 500;
+  color: #000;
+  text-align: center;
+  border: 6px solid transparent;
+  padding: 3px 7px 2px 7px;
+}

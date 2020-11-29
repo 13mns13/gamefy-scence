@@ -1,0 +1,145 @@
+.team-content{
+	padding: 18px;
+  	margin: 18px;
+  	/*background: #1976d2;*/
+  	border-radius: 24px;
+  	/*color: #fff;*/
+}
+.team-title{
+	font-size: 28px;
+ 	text-align: center;
+	font-family: TT Commons;
+	font-style: normal;
+  	font-weight: 500;
+  	letter-spacing: 1em;
+  	color: #C4C4C4;
+}
+
+/* Оформление карточки */
+button::-moz-focus-inner {
+  border: 0;
+}
+
+button {
+  padding: .5rem .8rem;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  text-transform: uppercase;
+  outline: 0;
+  transition: background-color .4s, color .4s, transform .1s;
+}
+ button:hover {
+  color: white;
+  box-shadow: 0 0 24px #000000cb;
+}
+      
+button:active {
+    transform: scale(0.95);
+    box-shadow: 0 0 16px #000000b2;
+}
+
+p {
+  margin-top: 1rem;
+  color: #484848;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #2574a9;
+}
+
+
+.card-content {
+  margin-right: 0px;
+  margin-left: 0px;
+  display: flex;
+  
+}
+
+.card {
+  margin: 1rem;
+  width: 300px;
+  height: 500px;
+  padding: .5rem 1rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0px 12px 32px 4px #000000cb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: .2s;
+  
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.title {
+    color: white;
+    margin: 1rem;
+    padding: .5rem 1rem;
+    border-radius: 50px;
+    transition: .2s;
+    cursor: pointer;
+}  
+
+.card--legendary {
+  background-color: #f4d03f;
+    .card:hover {
+      box-shadow: 0 0 12px #f4d03fcc;
+  }
+}
+    
+.title--epic {
+  background-color: #8c14fc;
+}
+
+.title--epic:hover {
+     box-shadow: 0 0 12px #8c14fccb;
+}
+
+    
+/*.actions-like:hover {
+    background-color: #00b16a;
+    box-shadow: 0 0 12px #2ecc71cb;
+  }
+
+    
+.actions-trade:hover {
+    background-color: #3498db;
+    box-shadow: 0 0 12px #2ecc71cb;
+  }
+
+    
+.actions-cancel:hover {
+    background-color: #c0392b;
+    box-shadow: 0 0 12px #2ecc71cb;
+  }*/
+    
+  
+.desc {
+  text-align: center;
+}
+  
+.actions {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+  button:hover{
+   background-color: #3498db;
+    box-shadow: 0 0 12px #3498dbcc;
+}  
+
+
+
+
+  
+.active {
+  background-color: #00b16a;
+}

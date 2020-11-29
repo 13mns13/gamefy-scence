@@ -1,0 +1,146 @@
+/* Контент главной страницы */
+
+.mechanism-icon{
+	width: 240px;
+    height: 240px;
+    /* border-radius: 24px; */
+}
+
+.functional-content{
+	margin: 30px 8px 8px 8px;
+	padding: 8px;
+	height: 0;
+	height: 65%;
+}
+.functional-title{
+	margin: 30px 0px 30px 0px;
+	text-align: center;
+	color: #C4C4C4;
+	font-weight: 500;
+	font-size: 24px;
+	letter-spacing: 1.36em;
+}
+
+.functional-img{
+    float: left;
+    height: 350px;
+    width: 364px;
+    padding: 8px;
+    margin: 5% 0px 5% 15%;
+}
+
+.functional-data{
+	float: right;
+    margin: 5% 15% 10px 10px;
+    width: 30%;
+	font-family: TT Commons;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	color: #3C4145;
+}
+
+.functional-data-container{
+
+}
+
+.functional-img-container{
+    width: 40%;
+}
+.footer-content{
+	margin: 20px 0px 0px 20px;
+	display: inline-block;
+}
+/*
+
+/* Актуальность 
+.actual-main{
+ 	padding: 18px;
+    width: 70%;
+    height: 80%;
+    margin: 8px auto 8px auto;
+    text-shadow: 1px 1px 2px black, 0 0 0em black;
+    border-radius: 24px;
+    color: #fff;
+    background: url(../images/img_main_actual.png) no-repeat;
+    background-size: cover;
+}
+.actual-title{
+  	text-align: center;
+}
+.actual-data{
+  
+}
+.actual-tagline{
+	text-align: right;
+}
+
+/* Возможности 
+.capability-main{
+	position: relative;
+	text-shadow: 1px 1px 2px black, 0 0 0em black;
+    background: url(../images/img_main_capability.png) no-repeat;
+     background-size: 100% 100%;
+    background-size: cover;
+    width: 70%;
+   	height: 80%;
+    margin: 8px auto 8px auto;
+    padding: 18px;
+    border-radius: 24px;
+    color: #fff;
+}
+.capability-title{
+  	text-align: center;
+  	  margin-top: 16px;
+}
+.capability-data{
+	text-align: right;
+    position: absolute;
+    /* bottom: 0; 
+    color: #000;
+    margin-right: 5%;
+    margin-top: 10%;
+    right: 0;
+}
+
+
+/*  СЛАЙДЕР 
+
+a.prev,a.next {
+	height:	91px;
+	border-radius: 10px;
+	position:absolute;
+	width:	43px;
+	top:	50%;
+	margin-top:	-30px;
+	opacity:	0.6;
+	text-indent: -99999px;
+	cursor:pointer;
+	-webkit-transition:opacity 200ms ease-out;
+}
+a.prev:hover,a.next:hover {
+	opacity:1;
+}
+
+.prev {
+	left:0;
+	margin-left: 10%; 
+	background: #000 url(../images/icons/ic_sprite.png) no-repeat -200px 25px;
+}
+.next {
+	right:0;
+	margin-right: 10%; 
+	background: #000 url(../images/icons/ic_sprite.png) no-repeat -167px 25px;
+}
+.slider {
+	height:100vh;
+	position: relative;
+}
+.slide {
+	position:absolute;
+	height:100%;
+	width:100%;
+}
+.slider .slide:target {
+	z-index: 100;
+}*/

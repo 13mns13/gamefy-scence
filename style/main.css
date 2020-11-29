@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+/*@import url("https://fonts.googleapis.com/css2?family=Roboto");*/
+
+html {
+  box-sizing: border-box;
+}
+
+.bg{
+  background: #fff;
+}
+
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 1.1px;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  /*background: #1c1d22;*/
+  font-family: "TT Commons", sans-serif;
+}
+
+/*Главная иконка*/
+.icon-size{
+  display: none;
+  height: 18px;
+  width: 18px;
+  margin: 4px;
+  /*filter: invert(100%);*/
+}
+.main-icon{
+  display: none;
+  height: 40px;
+  width: 40px;
+  margin: 0px 0px 0px 13px;
+}
+
+
+/*МЕНЮ*/
+
+/*@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');*/ /* Подключение шрифта */
+.menu-main {
+   /* margin: 40px 0 5px; */
+  /* border-bottom: 20px; */
+  list-style: none;
+  padding: 16px 0px 0px 0px;
+  text-align: center;
+  background: #fff;
+  /*border-radius: 0px 0px 28px 28px;*/
+}
+.menu-main li {display: inline-block;}
+/*.menu-main li:after {
+  content: "|";
+  color: #606060;
+  display: inline-block;
+  vertical-align:top;
+}*/
+.menu-main li:last-child:after {content: none;}
+.menu-main a {
+  text-decoration: none;
+  font-family: 'TT Commons', sans-serif;
+  letter-spacing: 2px;
+  position: relative;
+  padding-bottom: 20px;
+  margin: 0 34px 0 40px;
+  font-size: 17px;
+  /* text-transform: uppercase; */
+  display: inline-block;
+  transition: color .2s;
+}
+.menu-main a, .menu-main a:visited 
+{
+  color: #000;
+}
+
+.main-img{
+  text-align: left;
+  position: absolute;
+  left: 0;
+}
+
+.menu-auth{
+  text-align: right;
+  position: absolute;
+  right: 0;
+}
+
+.menu-main a.current, .menu-main a:hover{
+  color: #518AFA;
+  text-decoration: none;
+}
+.menu-main a:before,
+.menu-main a:after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    top: auto;
+    right: 50%;
+    /* border-radius: 20px 24px 24px 24px; */
+    bottom: 13px;
+    left: 50%;
+    background: #518AFA;
+    transition: .8s;
+}
+.menu-main a:hover:before, .menu-main .current:before {left: 0;}
+.menu-main a:hover:after, .menu-main .current:after {right: 0;}   
+@media (max-width: 550px) {
+.menu-main {padding-top: 0;}
+.menu-main li {display: block;}
+.menu-main li:after {content: none;}
+.menu-main a {
+  padding: 25px 0 20px; 
+  margin: 0 30px;
+  }
+}
+
+/* Скролл */
+::-webkit-scrollbar { 
+  width: 10px; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #a0c8d8;
+  background: -moz-linear-gradient(left, #5c6bc0 0%, #303f9f 50%, #1a237e 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #5c6bc0), color-stop(50%, #303f9f), color-stop(100%, #1a237e));
+  background: -webkit-linear-gradient(left, #5c6bc0 0%, #303f9f 50%,#1a237e 100%);
+  background: -o-linear-gradient(left, #5c6bc0 0%, #303f9f 50%, #1a237e 100%);
+  background: -ms-linear-gradient(left, #5c6bc0 0%, #303f9f 50%, #1a237e 100%);
+  background: linear-gradient(to right, #5c6bc0 0%, #303f9f 50%, #1a237e 100%);
+  border-radius: 10px;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5c6bc0', endColorstr='##1a237e', GradientType=1);
+}
+
+::-webkit-scrollbar-track {
+  background: #f3f0f0;
+  /*border-radius: 5px;*/
+  box-shadow: inset 0 0 6px rgba(23, 22, 22, 0.22);
+}
+
+.footer{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    /*display: inline-block;*/
+    font-size: 12px;
+    text-align: center;
+
+}
